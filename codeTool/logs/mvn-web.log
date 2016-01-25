@@ -1,0 +1,226 @@
+2016-01-25 14:53:57.381 DEBUG [main][AutoGenerator.java:65] - 111
+2016-01-25 15:51:25.997 DEBUG [main][AutoGenerator.java:57] - select ,COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:51:35.014 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:53:04.381 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:53:32.758 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:54:12.994 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:54:55.102 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:55:09.827 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 15:56:06.487 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:01:24.422 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:01:48.223 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:02:51.625 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:04:54.323 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:06:06.477 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:07:21.450 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:08:35.676 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:09:27.796 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:09:38.684 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:10:13.270 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:14:57.191 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:16:00.854 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:16:00.867 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Id, methodName=)d, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:16:00.868 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Account, methodName=!ccount, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:16:00.868 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Password, methodName=0assword, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:16:00.868 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Name, methodName=.ame, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:16:00.868 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Sex, methodName=3ex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:16:00.868 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Status, methodName=3tatus, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:16:00.869 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Phone, methodName=0hone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:16:00.869 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Email, methodName=%mail, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:16:00.869 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=Remark, methodName=2emark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:16:00.869 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=OpUserId, methodName=/pUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:16:00.869 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=OpTime, methodName=/pTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:16:39.056 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:18:03.345 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:18:22.733 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:18:37.763 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:18:47.365 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:18:48.236 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:18:48.917 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:18:49.564 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:18:50.173 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:18:50.716 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:18:51.181 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:19:37.285 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=OpUserId, methodName=/pUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:19:57.284 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=optime, methodName=optime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:21:53.913 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:21:53.927 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:21:53.927 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:21:53.927 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:21:53.927 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:21:53.927 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:21:53.928 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:21:53.928 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:21:53.928 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:21:53.928 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:21:53.928 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:21:53.929 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:24:00.493 DEBUG [main][AutoGenerator.java:57] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:24:00.505 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:24:00.506 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:24:00.506 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:24:00.506 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:24:00.506 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:24:00.507 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:24:00.507 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:24:00.507 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:24:00.507 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:24:00.507 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:24:00.508 DEBUG [main][AutoGenerator.java:87] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:27:00.891 DEBUG [main][AutoGenerator.java:58] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:27:00.904 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:27:00.905 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:27:00.905 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:27:00.905 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:27:00.905 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:27:00.905 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:27:00.906 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:27:00.906 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:27:00.906 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:27:00.906 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:27:00.906 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:27:51.323 DEBUG [main][AutoGenerator.java:58] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:27:51.336 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:27:51.337 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:27:51.337 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:27:51.337 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:27:51.337 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:27:51.338 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:27:51.338 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:27:51.338 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:27:51.338 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:27:51.338 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:27:51.339 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:28:44.976 DEBUG [main][AutoGenerator.java:58] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:28:44.989 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:28:44.990 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:28:44.990 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:28:44.990 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:28:44.990 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:28:44.990 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:28:44.991 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:28:44.991 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:28:44.991 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:28:44.991 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:28:44.991 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:34:48.857 DEBUG [main][AutoGenerator.java:58] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:34:48.870 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:34:48.871 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:34:48.871 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:34:48.871 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:34:48.872 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:34:48.872 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:34:48.872 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:34:48.872 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:34:48.872 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:34:48.873 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:34:48.873 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 16:43:28.902 DEBUG [main][AutoGenerator.java:58] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 16:43:28.915 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 16:43:28.915 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 16:43:28.915 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 16:43:28.915 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 16:43:28.916 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 16:43:28.916 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 16:43:28.916 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 16:43:28.916 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 16:43:28.917 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 16:43:28.917 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 16:43:28.917 DEBUG [main][AutoGenerator.java:88] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 17:16:42.545 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:17:56.858 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:17:56.946 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:19:45.000 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:19:54.927 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:19:55.011 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:20:24.314 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:20:24.396 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:24:56.046 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:25:18.583 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:25:48.294 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:25:48.376 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:26:36.677 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:26:36.762 INFO [main][AutoGenerator.java:171] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:30:21.330 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:30:21.413 INFO [main][AutoGenerator.java:177] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:30:44.832 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:30:44.915 INFO [main][AutoGenerator.java:177] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:31:13.516 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:31:13.598 INFO [main][AutoGenerator.java:177] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:32:04.734 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:32:04.817 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:33:39.129 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:33:39.212 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:34:45.890 INFO [main][AutoGenerator.java:120] - 由数据库表 sys_user 反向生成代码......
+2016-01-25 17:34:46.075 DEBUG [main][AutoGenerator.java:63] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 17:34:46.088 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 17:34:46.088 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 17:34:46.088 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 17:34:46.088 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 17:34:46.088 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 17:34:46.089 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 17:34:46.089 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 17:34:46.089 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 17:34:46.089 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 17:34:46.090 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 17:34:46.090 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 17:34:46.174 INFO [main][AutoGenerator.java:137] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:35:16.289 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:35:16.373 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:36:33.299 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:36:51.801 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:37:02.903 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:37:24.654 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:38:27.343 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:38:53.795 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:38:53.880 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:39:44.803 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:39:44.887 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:39:59.684 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:39:59.768 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:40:35.576 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:40:35.659 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:41:57.352 INFO [main][AutoGenerator.java:120] - 由数据库表 sys_user 反向生成代码......
+2016-01-25 17:41:57.586 DEBUG [main][AutoGenerator.java:63] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 17:42:13.185 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 17:42:15.464 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 17:42:15.465 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 17:42:15.465 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 17:42:15.466 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 17:42:15.467 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 17:42:15.467 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 17:42:15.467 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 17:42:15.468 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 17:42:15.469 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 17:42:15.469 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 17:42:15.618 INFO [main][AutoGenerator.java:137] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:42:49.156 INFO [main][AutoGenerator.java:120] - 由数据库表 sys_user 反向生成代码......
+2016-01-25 17:42:49.356 DEBUG [main][AutoGenerator.java:63] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 17:42:49.368 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 17:42:49.368 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 17:42:49.368 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 17:42:49.369 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 17:42:49.369 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 17:42:49.369 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 17:42:49.369 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 17:42:49.369 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 17:42:49.370 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 17:42:49.370 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 17:42:49.370 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 17:42:49.457 INFO [main][AutoGenerator.java:137] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:43:23.866 INFO [main][AutoGenerator.java:120] - 由数据库表 sys_user 反向生成代码......
+2016-01-25 17:43:24.055 DEBUG [main][AutoGenerator.java:63] - select COLUMN_NAME,COLUMN_KEY,COLUMN_COMMENT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH from information_schema.`COLUMNS`  where table_name = 'sys_user' and table_schema = 'lezic'
+2016-01-25 17:43:24.067 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=id, methodName=Id, name=id, primaryKey=true, unique=true, nullable=false, comment=uuid主键, dataType=String, length=36]
+2016-01-25 17:43:24.067 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=account, methodName=Account, name=account, primaryKey=false, unique=false, nullable=true, comment=账号, dataType=String, length=200]
+2016-01-25 17:43:24.068 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=password, methodName=Password, name=password, primaryKey=false, unique=false, nullable=true, comment=密码, dataType=String, length=200]
+2016-01-25 17:43:24.068 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=name, methodName=Name, name=name, primaryKey=false, unique=false, nullable=true, comment=姓名, dataType=String, length=100]
+2016-01-25 17:43:24.068 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=sex, methodName=Sex, name=sex, primaryKey=false, unique=false, nullable=true, comment=性别, dataType=String, length=10]
+2016-01-25 17:43:24.068 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=status, methodName=Status, name=status, primaryKey=false, unique=false, nullable=true, comment=状态 on:启用 off:禁用, dataType=String, length=20]
+2016-01-25 17:43:24.068 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=phone, methodName=Phone, name=phone, primaryKey=false, unique=false, nullable=true, comment=手机号码, dataType=String, length=100]
+2016-01-25 17:43:24.069 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=email, methodName=Email, name=email, primaryKey=false, unique=false, nullable=true, comment=邮箱地址, dataType=String, length=100]
+2016-01-25 17:43:24.069 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=remark, methodName=Remark, name=remark, primaryKey=false, unique=false, nullable=true, comment=备注, dataType=String, length=255]
+2016-01-25 17:43:24.069 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opUserId, methodName=OpUserId, name=op_user_id, primaryKey=false, unique=false, nullable=true, comment=操作用户ID, dataType=String, length=36]
+2016-01-25 17:43:24.069 DEBUG [main][AutoGenerator.java:93] - Column [fieldName=opTime, methodName=OpTime, name=op_time, primaryKey=false, unique=false, nullable=true, comment=操作时间, dataType=Date, length=0]
+2016-01-25 17:43:24.155 INFO [main][AutoGenerator.java:137] - 自动生成代码成功！生成路径：D:\\SysUser.java
+2016-01-25 17:43:51.674 INFO [main][AutoGenerator.java:150] - 由实体类 SysUser 生成代码......
+2016-01-25 17:43:51.758 INFO [main][AutoGenerator.java:178] - 自动生成代码成功！生成路径：D:\\SysUser.java
