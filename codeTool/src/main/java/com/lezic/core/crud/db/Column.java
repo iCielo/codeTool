@@ -55,6 +55,11 @@ public class Column {
 	 */
 	private int length;
 
+	/**
+	 * 校验规则
+	 */
+	private String rules;
+
 	public String getFieldName() {
 		return fieldName;
 	}
@@ -127,11 +132,19 @@ public class Column {
 		this.methodName = methodName;
 	}
 
+	public String getRules() {
+		return rules;
+	}
+
+	public void setRules(String rules) {
+		this.rules = rules;
+	}
+
 	@Override
 	public String toString() {
 		return "Column [fieldName=" + fieldName + ", methodName=" + methodName + ", name=" + name + ", primaryKey="
 				+ primaryKey + ", unique=" + unique + ", nullable=" + nullable + ", comment=" + comment + ", dataType="
-				+ dataType + ", length=" + length + "]";
+				+ dataType + ", length=" + length + ", rules=" + rules + "]";
 	}
 
 }

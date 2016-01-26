@@ -3,7 +3,7 @@
 
 	<properties>
 		<property name="LOG_HOME">logs</property>
-		<property name="FILE_NAME">mvn-web</property>
+		<property name="FILE_NAME">codeTool</property>
 	</properties>
 
 	<Appenders>

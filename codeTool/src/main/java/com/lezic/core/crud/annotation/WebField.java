@@ -48,6 +48,13 @@ public @interface WebField {
 	/**
 	 * 最大字符数
 	 */
-	public int length();	
+	public int length();
+	
+	/**
+	 * 校验规则
+	 * @return
+	 * @author cielo
+	 */
+	public String rules();
 	
 }

@@ -3,7 +3,7 @@
 <html>
 <head>
 <%@ include file="../../common/form.jsp"%>
-<title>${title} - 新增</title>
+<title>${title} - 修改</title>
 <script type="text/javascript">
 	$(function() {
 		$("#form").validator({
@@ -17,7 +17,7 @@
 		});
 		$('#form').on('valid.form', function(e) {
 			Common.ajax({
-				url : "${CP}/${module}/${entityName}.do?method=addEntity",
+				url : "${CP}/${module}/${entityName}.do?method=updEntity",
 				data : $(this).serialize(),
 				success : function(data) {
 					Common.closeDialog();
@@ -31,11 +31,12 @@
 	<section class="panel">
 		<div class="panel-body">
 			<form class="form-horizontal tasi-form" method="post" id="form">
+				#set($entity="{entity")
 				#foreach( $item in $fields )
 					<div class="form-group">
 						<label class="col-sm-3 col-xs-3 control-label">${item.label} #if( ${item.nullable} == false )<span class="form-must">*</span> #end</label>
 						<div class="col-sm-6 col-xs-6">
-							<input class="form-control" placeholder="${item.placeholder}" type="text" id="${item.name}" name="${item.name}">
+							<input class="form-control" placeholder="${item.placeholder}" type="text" id="${item.name}" name="${item.name}"  value="<c:out value="${mark}${entity}.$item.name}"/>">
 						</div>
 					</div> 
 				#end

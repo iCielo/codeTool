@@ -22,7 +22,7 @@ public class ${entityName} implements java.io.Serializable {
 	#foreach( $column in $columns )
 		#if( ${column.primaryKey} ) @Id #end
 		@Column(name = "${column.name}" , length = ${column.length} #if( ${column.unique} ) , unique = ${column.unique} #end #if( ${column.nullable} == false ) , nullable = ${column.nullable} #end)
-		@WebField(label="${column.comment}" , placeholder="请输入${column.comment}" , length = ${column.length} #if( ${column.unique} ) , unique = ${column.unique} #end #if( ${column.nullable} == false ) , nullable = ${column.nullable} #end)		
+		@WebField(label="${column.comment}" , placeholder="请输入${column.comment}", rules="${column.rules}" , length = ${column.length} #if( ${column.unique} ) , unique = ${column.unique} #end #if( ${column.nullable} == false ) , nullable = ${column.nullable} #end)		
 		private ${column.dataType} ${column.fieldName};
 		
 	#end

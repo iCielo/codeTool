@@ -19,7 +19,8 @@ import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.lezic.app.sys.user.entity.SysUser;
+import com.lezic.app.crud.table.entity.CrudTable;
+import com.lezic.app.sys.crud.entity.SysCrud;
 import com.lezic.core.crud.annotation.WebField;
 import com.lezic.core.crud.db.Column;
 import com.lezic.core.crud.db.DBHelper;
@@ -52,9 +53,9 @@ public class AutoGenerator {
 		StringBuffer sb = new StringBuffer();
 		sb.append("select ");
 		sb.append("COLUMN_NAME");
+		sb.append(",IS_NULLABLE");
 		sb.append(",COLUMN_KEY");
 		sb.append(",COLUMN_COMMENT");
-		sb.append(",IS_NULLABLE");
 		sb.append(",DATA_TYPE");
 		sb.append(",CHARACTER_MAXIMUM_LENGTH");
 		sb.append(" from information_schema.`COLUMNS` ");
@@ -66,30 +67,44 @@ public class AutoGenerator {
 
 		while (ret.next()) {
 			int i = 1;
-			Column column = new Column();
 			String columnName = ret.getString(i++);
+			String isNullable = ret.getString(i++);
+			String columnKey = ret.getString(i++);
+			String columnComment = ret.getString(i++);
+			String dataType = ret.getString(i++);
+			int length = ret.getInt(i++);
+
+			Column column = new Column();
 			column.setName(columnName);
 			column.setFieldName(UtilData.toCamel(columnName));
 			column.setMethodName(UtilData.firstUpperCase(column.getFieldName()));
-			String columnKey = ret.getString(i++);
+			column.setNullable("YES".equals(isNullable));
 			if ("PRI".equals(columnKey)) {
 				column.setPrimaryKey(true);
 				column.setUnique(true);
 			} else {
 				column.setPrimaryKey(false);
 			}
-			String columnComment = ret.getString(i++);
 			column.setComment(columnComment);
-			String isNullable = ret.getString(i++);
-			column.setNullable("YES".equals(isNullable));
-			String dataType = ret.getString(i++);
 			if ("datetime".equals(dataType)) {
 				dataType = "Date";
 			} else {
 				dataType = "String";
 			}
 			column.setDataType(dataType);
-			column.setLength(ret.getInt(i++));
+			column.setLength(length);
+
+			StringBuffer rules = new StringBuffer();
+			if (column.isNullable() == false) {
+				rules.append("required;");
+			}
+			if (column.getLength() > 0) {
+				rules.append("length(~" + column.getLength() + ");");
+			}
+			if (column.isUnique() && column.isPrimaryKey() == false) {
+				rules.append("remote(?method=isRepeat)");
+			}
+			column.setRules(rules.toString());
 			logger.debug(column.toString());
 			columns.add(column);
 		}
@@ -142,45 +157,56 @@ public class AutoGenerator {
 	 * 
 	 * @param cl
 	 * @param template
+	 * @params 自定义的参数
 	 * @author cielo
 	 * @throws IOException
 	 */
-	public static void processTemplate(Class<?> cl, String templatePath, String outPath) throws IOException {
+	public static void processTemplate(Class<?> cl, String templatePath, String outPath, Map<String, Object> params)
+			throws IOException {
 		String entityName = cl.getSimpleName();
 		logger.info("由实体类 " + entityName + " 生成代码......");
 		Field[] fields = cl.getDeclaredFields();
-		List<Map<String,Object>> fieldList = new LinkedList<Map<String,Object>>();
+		List<Map<String, Object>> fieldList = new LinkedList<Map<String, Object>>();
 		for (int i = 0; i < fields.length; i++) {
 			WebField webField = fields[i].getAnnotation(WebField.class);
 			if (webField != null) {
-				Map<String,Object> item = new HashMap<String, Object>();
+				Map<String, Object> item = new HashMap<String, Object>();
 				item.put("label", webField.label());
 				item.put("placeholder", webField.placeholder());
 				item.put("nullable", webField.nullable());
 				item.put("unique", webField.unique());
 				item.put("length", webField.length());
+				item.put("rules", webField.rules());
 				item.put("name", fields[i].getName());
 				fieldList.add(item);
 			}
 		}
 		Date now = new Date();
 
-		Map<String, Object> params = new HashMap<String, Object>();
+		if (params == null) {
+			params = new HashMap<String, Object>();
+		}
 
 		params.put("entityName", entityName);
 		params.put("fields", fieldList);
 		params.put("now", UtilDate.formatDate(now, UtilDate.P_YYYYMMDDHHMMSS));
+		params.put("mark", "$");
 
 		String template = UtilFile.getContent(templatePath);
+		File file = new File(templatePath);
 		String content = UtilVelocity.process(template, params);
-		String destFile = outPath + File.separator + entityName + ".java";
+		String destFile = outPath + File.separator + file.getName();
 		UtilFile.write(destFile, content);
 		logger.info("自动生成代码成功！生成路径：" + destFile);
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-//		 AutoGenerator.processEntity("com.lezic.app.sys.user.entity", "sys_user","lezic", "D:\\");
-		String templatePath = UtilClass.getRootPath() + File.separator + "template" + File.separator + "addPage.jsp";
-		AutoGenerator.processTemplate(SysUser.class, templatePath, "D:\\");
+//		 AutoGenerator.processEntity("com.lezic.app.crud.table.entity", "crud_table", "lezic", "D:\\");
+		String templatePath = UtilClass.getRootPath() + File.separator + "template" + File.separator + "listPage.jsp";
+//		String templatePath = UtilClass.getRootPath() + File.separator + "template" + File.separator + "SysUserService.java";
+		Map<String, Object> params = new HashMap<String, Object>();
+		params.put("module", "crud");
+		params.put("moduleName", "代码工厂");
+		AutoGenerator.processTemplate(CrudTable.class, templatePath, "D:\\", params);
 	}
 }

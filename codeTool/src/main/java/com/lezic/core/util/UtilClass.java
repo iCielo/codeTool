@@ -6,6 +6,8 @@ package com.lezic.core.util;
 
 import java.net.URLDecoder;
 
+import com.lezic.app.sys.user.entity.SysUser;
+
 /**
  * @author cielo
  *
@@ -33,5 +35,22 @@ public class UtilClass {
 		}
 		return path;
 	}
-	
+
+	/**
+	 * 获取类的包路径
+	 * @param cl
+	 * @return
+	 * @author cielo
+	 */
+	public static String getPackagePath(Class<?> cl) {
+		String rootPath = UtilClass.getRootPath();
+		String clPath = cl.getResource("").getPath();
+		return clPath.substring(rootPath.length());
+	}
+
+	public static void main(String[] args) {
+		String str = UtilClass.getPackagePath(SysUser.class);
+		System.out.println(str);
+	}
+
 }
